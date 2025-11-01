@@ -54,6 +54,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Sarah Johnson',
     currentStageId: 3,
     admissionDate: '2025-10-01',
+    status: 'Active',
     stages: [
       { stageId: 1, startDate: '2025-10-01', completedDate: '2025-10-01' },
       { stageId: 2, startDate: '2025-10-02', completedDate: '2025-10-03' },
@@ -70,6 +71,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Michael Chen',
     currentStageId: 4,
     admissionDate: '2025-09-20',
+    status: 'Athlete',
     stages: [
       { stageId: 1, startDate: '2025-09-20', completedDate: '2025-09-20' },
       { stageId: 2, startDate: '2025-09-21', completedDate: '2025-09-22' },
@@ -87,6 +89,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Sarah Johnson',
     currentStageId: 5,
     admissionDate: '2025-09-05',
+    status: 'Pre-discharge',
     stages: [
       { stageId: 1, startDate: '2025-09-05', completedDate: '2025-09-05' },
       { stageId: 2, startDate: '2025-09-06', completedDate: '2025-09-07' },
@@ -105,6 +108,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Michael Chen',
     currentStageId: 2,
     admissionDate: '2025-09-15',
+    status: 'Lost',
     stages: [
       { stageId: 1, startDate: '2025-09-15', completedDate: '2025-09-15' },
       { stageId: 2, startDate: '2025-09-16' }
@@ -120,6 +124,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Emily Rodriguez',
     currentStageId: 3,
     admissionDate: '2025-10-08',
+    status: 'Active',
     stages: [
       { stageId: 1, startDate: '2025-10-08', completedDate: '2025-10-08' },
       { stageId: 2, startDate: '2025-10-09', completedDate: '2025-10-10' },
@@ -136,6 +141,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Sarah Johnson',
     currentStageId: 4,
     admissionDate: '2025-09-28',
+    status: 'Referred Specialist',
     stages: [
       { stageId: 1, startDate: '2025-09-28', completedDate: '2025-09-28' },
       { stageId: 2, startDate: '2025-09-29', completedDate: '2025-09-30' },
@@ -153,6 +159,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Michael Chen',
     currentStageId: 6,
     admissionDate: '2025-08-15',
+    status: 'Discharged',
     stages: [
       { stageId: 1, startDate: '2025-08-15', completedDate: '2025-08-15' },
       { stageId: 2, startDate: '2025-08-16', completedDate: '2025-08-17' },
@@ -172,6 +179,7 @@ export const MOCK_PATIENTS: Patient[] = [
     doctorName: 'Dr. Emily Rodriguez',
     currentStageId: 3,
     admissionDate: '2025-10-05',
+    status: 'Out-of-town',
     stages: [
       { stageId: 1, startDate: '2025-10-05', completedDate: '2025-10-05' },
       { stageId: 2, startDate: '2025-10-06', completedDate: '2025-10-07' },

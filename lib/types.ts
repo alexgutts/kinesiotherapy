@@ -2,6 +2,16 @@ export type StageShape = 'square' | 'triangle' | 'circle';
 
 export type UserRole = 'doctor' | 'physiotherapist';
 
+export type PatientStatus =
+  | 'Active'
+  | 'Discharged'
+  | 'Lost'
+  | 'Athlete'
+  | 'Deceased'
+  | 'Out-of-town'
+  | 'Pre-discharge'
+  | 'Referred Specialist';
+
 export interface User {
   id: number;
   username: string;
@@ -36,6 +46,7 @@ export interface Patient {
   currentStageId: number;
   stages: PatientStage[];
   admissionDate: string;
+  status: PatientStatus;
 }
 
 export const STAGES: Stage[] = [
